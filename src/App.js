@@ -1,4 +1,4 @@
-import './App.css';
+import './assets/styles/style.sass';
 import DishForm from './components/DishForm';
 
 function App() {
