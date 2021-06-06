@@ -1,0 +1,65 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+.App
+  width: 100vw
+  height: 100vh
+  display: flex
+  justify-content: center
+  align-items: center
+  background-color: #ececec
+  .dish-form
+    padding: 50px 80px
+    background-color: black
+    background-color: #133E59
+    color: #F5B51B
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    border-radius: 20px
+    h1
+      flex-grow: 0.2
+    form
+      display: flex
+      flex-direction: column
+      justify-content: flex-start
+      align-items: center
+      div
+        position: relative
+        display: flex
+        justify-content: space-between
+        align-items: center
+        width: 300px
+        text-align: center
+        margin: 20px
+        input
+          width: 40%
+          padding: 5px
+          border-radius: 5px
+    .pizza-select
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+    .error
+      height: 20px
+      width: 60px
+      position: absolute
+      left: 105%
+      top: calc(50% - 10px)
+      color: red
+      margin: 0
+    button
+      width: 50%
+      height: 30px
+      background-color: #F5B51B
+      color: #133E59
+      border-radius: 10px
+      font-size: 17px
+      transition: 0.3s
+      cursor: pointer
+      border: none
+      &:hover
+        color: white
