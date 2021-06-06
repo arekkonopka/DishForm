@@ -6,7 +6,7 @@
 
 ## General info
 Set up: 
-
+Fill all fields and enjoy your dish.
 ## Technologies
 Project is created with:
 *React
